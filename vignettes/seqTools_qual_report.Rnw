@@ -7,6 +7,7 @@
 %% Load Packages
 %% + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + %%
 
+\usepackage{float}
 \usepackage{helvet}                         % Actually switches the default sans serif font to Nimbus Sans L
 
 \usepackage[english]{babel}                 % Language controls section headers
