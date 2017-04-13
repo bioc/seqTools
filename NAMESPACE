@@ -2,8 +2,11 @@
 useDynLib(seqTools)
 import(methods)
 import(zlibbioc)
-importFrom(utils,head)
-importFrom(utils,tail)
+importFrom(utils,"head", "tail")
+importFrom("grDevices", "topo.colors")
+importFrom("graphics", "axis", "legend", "lines", "plot")
+importFrom("stats", "as.dist", "hclust")
+
 export(
     ascii2char,
     countDnaKmers,
@@ -34,9 +37,11 @@ exportMethods(
     collectDur,
     gcContent,
     gcContentMatrix,
+    getGCcontent,
     fileNames,
     getK,
     kmerCount,
+    kmerSvd,
     maxSeqLen,
     meltDownK,
     mergedPhred,

@@ -1,9 +1,8 @@
 Package: seqTools
 Type: Package
-Title: Analysis of nucleotide, sequence and quality content on fastq
-        files.
-Version: 1.9.0
-Date: 2013-10-14
+Title: Analysis of nucleotide, sequence and quality content on fastq files
+Version: 1.9.1
+Date: 2017-04-13
 Author: Wolfgang Kaisers
 Maintainer: Wolfgang Kaisers <kaisers@med.uni-duesseldorf.de>
 Description: Analyze read length, phred scores and alphabet frequency and DNA k-mers on uncompressed and compressed fastq files.
@@ -12,3 +11,5 @@ License: Artistic-2.0
 Depends: methods,utils,zlibbioc
 LinkingTo: zlibbioc
 Suggests: RUnit, BiocGenerics
+Packaged: 2016-11-02 14:54:43 UTC; kaisers
+NeedsCompilation: yes
